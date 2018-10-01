@@ -1,0 +1,6 @@
+First follow the steps found here: https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/?trk=gs_card
+Until you reach the final step. For this step you will need to change 
+
+ssh -i 'c:\Users\yourusername\.ssh\MyKeyPair.pem' ec2-user@{IP_Address} 
+To
+ssh -i 'c:\Users\yourusername\.ssh\MyKeyPair.pem' ubuntu@{IP_Address} 
