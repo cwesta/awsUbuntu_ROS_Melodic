@@ -1,4 +1,6 @@
-We will now set up the graphical user interface using a VNC. 
-To get a much more detailed explanation on how to setup a VNC 
-on AWS please check on this article:
-https://medium.com/@Arafat./graphical-user-interface-using-vnc-with-amazon-ec2-instances-549d9c0969c5
+We will now set up the graphical user interface using a VNC. To get a much more detailed explanation 
+on how to setup a VNC on AWS please check on this article:
+	https://medium.com/@Arafat./graphical-user-interface-using-vnc-with-amazon-ec2-instances-549d9c0969c5
+First you will have to create a free account with RealVNC or any VNC client you like. Examples are TightVnc,
+TigerVNC, or RealVnc. 
+
