@@ -1,8 +1,9 @@
 First follow the steps found here: https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/?trk=gs_card
-Until you reach the final step. For this step you will need to change the bash command from:
+Until you reach the final step. In this step you will connect to your instance via terminal.
+For this step you will need to change the bash command from:
   ssh -i 'c:\Users\yourusername\.ssh\MyKeyPair.pem' ec2-user@{IP_Address} 
   To
-  ssh -i 'c:\Users\yourusername\.ssh\MyKeyPair.pem' ubuntu@{IP_Address} 
-This will start up your 18.04 ubuntu server properly. Another easy way to figure out how to launch your instance from your 
+  ssh -i 'c:\Users\yourusername\.ssh\MyKeyPair.pem' ubuntu@{public_dns_name} 
+TThis will connect you to your ubuntu 18.04 instance. Another easy way to figure out how to launch your instance from your 
 terminal is to click on the connect button in your aws console.
-There it has a step by step guide on how to launch your peticular instance. 
+There it has a step by step guide on how to launch your peticular instance with an example. 
