@@ -3,5 +3,6 @@ Until you reach the final step. For this step you will need to change the bash c
   ssh -i 'c:\Users\yourusername\.ssh\MyKeyPair.pem' ec2-user@{IP_Address} 
   To
   ssh -i 'c:\Users\yourusername\.ssh\MyKeyPair.pem' ubuntu@{IP_Address} 
-This will start up your 18.04 ubuntu server properly. Another easy way to figure out how to launch your instance from your terminal is to click on the connect button in your aws console.
+This will start up your 18.04 ubuntu server properly. Another easy way to figure out how to launch your instance from your 
+terminal is to click on the connect button in your aws console.
 There it has a step by step guide on how to launch your peticular instance. 
